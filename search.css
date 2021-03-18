@@ -15,7 +15,7 @@ input {
 .formSearch {
     width: 50%;
     margin: 5px;
-    box-shadow: 0px 0px 5px lightgray;
+    box-shadow: 0px 0px 5px lightgray;  
 }
 
 #searchBar {
