@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="header.css" type="text/css" />
   <link rel="stylesheet" href="search.css" type="text/css" />
   <link rel="stylesheet" href="cards.css" type="text/css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
@@ -19,7 +17,11 @@
   <div class="backgroundImg"></div>
 
   <!-- Navigation bar  -->
-  <div class="nav"><img src="pictures/logoAdopteUnDev.png" /></div>
+  <div class="nav">
+    <a href="#scrollTop">
+      <img src="pictures/logoAdopteUnDev.png" />
+  </div>
+  </a>
 
   <!-- Modal envoie mail -->
   <div class="modal">
@@ -27,21 +29,21 @@
   </div>
 
   <!-- Header  -->
-  <header>
+  <header id="scrollTop">
     <div class="headerText">
-      <h1>Adopte le développeur de tes rêves</h1>
-      <p>
+      <h1>Adoptez le développeur de vos rêves</h1>
+      <p class="paragraph1">
         Nous proposons aux entreprises du numérique, startup ou grand groupe, de
         recruter leur futur développeur Web sur notre plateforme, en mettant en
         relation directe recruteurs et développeurs.
       </p>
-      <p>
+      <p class="paragraph2">
         Vous trouverez ci-dessous la liste des développeurs actuellement
         disponibles. Il suffit de sélectionner dans notre menu les compétences que vous
         recherchez et nous vous proposerons les développeurs correspondant le
         mieux à votre recherche.
       </p>
-      <p>
+      <p class="paragraph3">
         Découvrez vite nos développeurs, ils n'attendent que vous !
       </p>
     </div>
@@ -58,22 +60,9 @@
     <!-- Partie Cards -->
     <section class="cardsGrid">
       <article class="card">
-        <div class="cardImg imgKevin"></div>
-        <p class="cardName">Kévin Bodart</p>
-        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
-        <div class="iconContainer"></div>
-        <div class="sendMsg">
-          <a href="https://github.com/AntoineCAU" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
-              alt="Github logo"></a>
-          <a href="https://www.linkedin.com/in/antoine-cau-dw/" target="_blank"><img class="iconLinkedin"
-              src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
-          <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
-        </div>
-      </article>
-      <article class="card">
-        <div class="cardImg imgCaroline"></div>
-        <p class="cardName">Caroline Dorchies</p>
-        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
+        <div class="cardImg imgLoic"></div>
+        <p class="cardName">Loïc Brassart</p>
+        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, Pepsi</p>
         <div class="iconContainer"></div>
         <div class="sendMsg">
           <a href="https://github.com/CaroD59" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
@@ -84,8 +73,8 @@
         </div>
       </article>
       <article class="card">
-        <div class="cardImg imgLoic"></div>
-        <p class="cardName">Loïc Brassart</p>
+        <div class="cardImg imgCaroline"></div>
+        <p class="cardName">Caroline Dorchies</p>
         <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
         <div class="iconContainer"></div>
         <div class="sendMsg">
@@ -105,6 +94,19 @@
           <a href="https://github.com/CaroD59" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
               alt="Github logo"></a>
           <a href="https://www.linkedin.com/in/dorchies-c/" target="_blank"><img class="iconLinkedin"
+              src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
+          <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
+        </div>
+      </article>
+      <article class="card">
+        <div class="cardImg imgKevin"></div>
+        <p class="cardName">Kévin Bodart</p>
+        <p class="cardTechs">HTML, CSS, JS, Node, React, PHP, Python, ...</p>
+        <div class="iconContainer"></div>
+        <div class="sendMsg">
+          <a href="https://github.com/bdtkevin" target="_blank"><img class="iconGithub" src="./pictures/github.svg"
+              alt="Github logo"></a>
+          <a href="https://www.linkedin.com/in/kevin-bodart/" target="_blank"><img class="iconLinkedin"
               src="./pictures/linkedin.svg" alt="Linkedin logo"></a>
           <img class="iconSendMail" src="./pictures/sendMail.svg" alt="Send a mail icon">
         </div>
