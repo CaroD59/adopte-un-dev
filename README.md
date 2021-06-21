@@ -1,3 +1,6 @@
+![Adoptundev](https://user-images.githubusercontent.com/76882345/122744683-86918100-d288-11eb-9aa1-7c0af519fbb2.png)
+
+![Adoptundev2](https://user-images.githubusercontent.com/76882345/122744695-898c7180-d288-11eb-83b2-a8fa27b88f2f.png)
 FONCTIONNALITES DU SITE
 
 - le logo qui reflète l'identité du site (dans le cas d'un site avec plusieurs pasges, le fait de cliquer sur le logo renvoit à la page d'accueil)
